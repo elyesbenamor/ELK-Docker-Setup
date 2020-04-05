@@ -13,7 +13,7 @@ services:
         read_only: true
       - type: volume
         source: elasticsearch
-        target: /usr/share/elasticsearch/data
+        target: /usr/share/elasticsearch/data/elastic
     ports:
       - "9200:9200"
       - "9300:9300"
